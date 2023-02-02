@@ -1,0 +1,28 @@
+name: Request a new resource
+description: Request a new resource to be added to this repository
+assignees: jmertic
+body:
+  - type: textarea
+    id: resource
+    attributes:
+      label: Please describe the resource requested
+    validations:
+      required: true
+  - type: textarea
+    id: why
+    attributes:
+      label: Why would you like it added
+    validations:
+      required: true
+  - type: textarea
+    id: timeline
+    attributes:
+      label: How soon do you need this added
+    validations:
+      required: true
+  - type: textarea
+    id: context
+    attributes:
+      label: Additional context
+    validations:
+      required: true
