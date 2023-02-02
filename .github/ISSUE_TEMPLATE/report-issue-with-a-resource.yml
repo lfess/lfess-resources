@@ -1,5 +1,5 @@
 name: Report issue with a resource
-about: Report an issue or problem with a resource
+description: Report an issue or problem with a resource
 assignees: jmertic
 body:
   - type: input
