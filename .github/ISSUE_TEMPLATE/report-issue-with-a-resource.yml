@@ -1,0 +1,30 @@
+name: Report issue with a resource
+about: Report an issue or problem with a resource
+title: ''
+labels: ''
+assignees: jmertic
+body:
+  - type: input
+    id: resource
+    attributes:
+      label: Which resource has the issue or problem?
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: Describe the problem
+    validations:
+      required: true
+  - type: textarea
+    id: resolution
+    attributes:
+      label: What should be the resolution/fix
+    validations:
+      required: true
+  - type: textarea
+    id: context
+    attributes:
+      label: Additional context
+    validations:
+      required: true
