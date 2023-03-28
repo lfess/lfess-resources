@@ -8,23 +8,29 @@ The below chart describes the governance structure.
 
 ```mermaid
 graph TB
+style lfegb fill:white,color:black;
+style lfesssc fill:white,color:black;
 lfegb[LF Energy Governing Board]---lfesssc[LFESS Steering Committee]
 
-subgraph LFESS[LF Energy Standards and Specifications]
-style LFESS fill:#CCCCCC,text-align:left
+subgraph LFESS["LF Energy Standards and Specifications"]
+style LFESS fill:#1063a1,color:white,text-align:left;
+style cdscwg1 fill:white,color:black;
+style cdscwg2 fill:white,color:black;
+style samwg1 fill:white,color:black;
+style samwg2 fill:white,color:black;
 lfesssc---cdscwg1
 lfesssc---cdscwg2
 lfesssc---samwg1
 lfesssc---samwg2
 
-subgraph cdsc[<img src='https://artwork.lfenergy.org/projects/cdsc/horizontal/color/cdsc-horizontal-color.svg' height='40' />]
-style cdsc vertical-align:bottom
+subgraph cdsc["Carbon Data Specifications Consortium (CDSC)"]
+style cdsc vertical-align:bottom,color:white,fill:#ff8300;
 cdscwg1[Power Systems WG]
 cdscwg2[Customer Data WG]
 end
 
-subgraph sam[<img src='https://artwork.lfenergy.org/projects/superadvancedmeter/horizontal/color/superadvancedmeter-horizontal-color.svg' height='40' />]
-style sam vertical-align:bottom
+subgraph sam["Super Advanced Meter (SAM)"]
+style sam vertical-align:bottom,color:white,fill:#006b7a
 samwg1[Architecture WG]
 samwg2[Use Cases WG]
 end
