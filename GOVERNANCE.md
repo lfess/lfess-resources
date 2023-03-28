@@ -54,15 +54,17 @@ The LFESS Steering Committee provides oversight of the working groups within LFE
 - Approve specification publication
 - Assess any resource or infrastructure needs for the working groups, escalating them to the [LF Energy Governing Board][#lf-energy-governing-board] as needed.
 
-## Participating and contributing
+### Working Groups
 
-The working groups are open to anyone, and there are no financial requirements, or corporate affiliations needs for participation. Participation includes signing up for mailing lists, joining Slack channels, or participating in a working group or community meeting. These groups are open and transparent; each group defines how to participate in their individual working group repositories.
+Working Groups are where the primary work of building the specification happens. The working groups are open to anyone, and there are no financial requirements, or corporate affiliations needs for participation. Participation includes signing up for mailing lists, joining Slack channels, or participating in a working group or community meeting. These groups are open and transparent; each group defines how to participate in their individual working group repositories.
 
 If someone wants to contribute to a specification, then a [membership](#membership) is required. Contributing to a specification is defined as anything said or written by a person that would be incorporated into a specification. Examples could include:
 
 - A new issue or pull request opened requesting a change to a specification
 - Comments on an issue or pull request that is making a change to a specification.
 - Comments shared during a meeting that are directly incorporated into a specification.
+
+A list of current working groups can be found at [WORKINGGROUPS.md](WORKINGGROUPS.md).
 
 ## Membership
 
