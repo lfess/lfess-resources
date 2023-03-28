@@ -10,7 +10,7 @@ The below chart describes the governance structure.
 graph TB
 style lfegb fill:white,color:black;
 style lfesssc fill:white,color:black;
-lfegb[LF Energy Governing Board]---lfesssc[LFESS Steering Committee]
+lfegb["<a href='#lf-energy-governing-board'>LF Energy Governing Board</a>"]---lfesssc["<a href='#lfess-steering-committee'>LFESS Steering Committee"]
 
 subgraph LFESS["LF Energy Standards and Specifications"]
 style LFESS fill:#1063a1,color:white,text-align:left;
@@ -25,14 +25,14 @@ lfesssc---samwg2
 
 subgraph cdsc["Carbon Data Specifications Consortium (CDSC)"]
 style cdsc vertical-align:bottom,color:white,fill:#ff8300;
-cdscwg1[Power Systems WG]
-cdscwg2[Customer Data WG]
+cdscwg1["<a href='https://github.com/carbon-data-specification/Power-Systems-Data'>Power Systems WG</a>"]
+cdscwg2["<a href='https://github.com/carbon-data-specification/Customer-Data'>Customer Data WG</a>"]
 end
 
 subgraph sam["Super Advanced Meter (SAM)"]
 style sam vertical-align:bottom,color:white,fill:#006b7a
-samwg1[Architecture WG]
-samwg2[Use Cases WG]
+samwg1["<a href='https://github.com/super-advanced-meter/WG-Architecture'>Architecture WG</a>"]
+samwg2["<a href='https://github.com/super-advanced-meter/WG-UseCases'>Use Cases WG</a>"]
 end
 
 end
@@ -58,7 +58,7 @@ The LFESS Steering Committee provides oversight of the working groups within LFE
 
 Working Groups are where the primary work of building the specification happens. The working groups are open to anyone, and there are no financial requirements, or corporate affiliation needs for participation. Participation includes signing up for mailing lists, joining Slack channels, or participating in a working group or community meeting. These groups are open and transparent; each group defines how to participate in their individual working group repositories.
 
-If someone wants to contribute to a specification, then a [membership](#membership) is required. Contributing to a specification is defined as anything said or written by a person that would be incorporated into a specification. Examples could include:
+A membership is required if someone wants to contribute to a specification. Contributing to a specification is defined as anything said or written by a person that would be incorporated into a specification. Examples could include:
 
 - A new issue or pull request opened requesting a change to a specification
 - Comments on an issue or pull request that is making a change to a specification.
@@ -73,6 +73,6 @@ LFESS Membership is available at no cost to any organization, and does not requi
 - Steering Membership
 - General Membership
 
-Each tier allows any member to participate and contribute to any work within the Working Groups. The primary distinction is that Steering Membership enables the member to appoint a representative to the [LFESS Steering Committee](#lfess-steering-committee). Members generally join at the General Membership tier; Steering Membership policy is defined and maintained by the [LF Energy Governing Board](#lf-energy-governing-board).
+Each tier allows members to participate and contribute to work within the Working Groups. The primary distinction is that Steering Membership enables the member to appoint a representative to the [LFESS Steering Committee](#lfess-steering-committee). Members generally join at the General Membership tier; the [LF Energy Governing Board](#lf-energy-governing-board) defines and maintains the Steering Membership policy.
 
-To join an an LFESS member, complete the membership application at [joinnow.lfess.energy](https://joinnow.lfess.energy).
+To join as an LFESS member, complete the membership application at [joinnow.lfess.energy](https://joinnow.lfess.energy).
