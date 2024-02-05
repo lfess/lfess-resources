@@ -68,11 +68,4 @@ Current working groups can be found at [WORKINGGROUPS.md](WORKINGGROUPS.md).
 
 ## Membership
 
-LFESS Membership is available at no cost to any organization and does not require an existing Linux Foundation membership. There are two tiers of membership:
-
-- Steering Membership
-- General Membership
-
-Each tier allows members to participate and contribute to work within the Working Groups. The primary distinction is that Steering Membership enables the member to appoint a representative to the [LFESS Steering Committee](#lfess-steering-committee). Members generally join at the General Membership tier; the [LF Energy Governing Board](#lf-energy-governing-board) defines and maintains the Steering Membership policy.
-
-To join as an LFESS member, complete the membership application at [joinnow.lfess.energy](https://joinnow.lfess.energy).
+Moved to [CONTRIBUTING.md](CONTRIBUTING.md)
